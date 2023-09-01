@@ -3,16 +3,15 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background: rgb(228, 228, 228);
   color: rgb(82, 82, 82);
 }
 
 main {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   gap: 100px;
 }
 
@@ -40,11 +39,9 @@ button:active {
 }
 
 #container {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   display: grid;
-  /* grid-template-columns: repeat(16, auto); */
-  /* border: 1px solid rgb(63, 62, 62); */
   background: white;
 }
 
